@@ -8,10 +8,10 @@ int main(void)
 {
 	char lcl;
 
-	for (lcl = 'a'; lcl = <= 'z'; lcl++)
+	for (lcl = 'a'; lcl <= 'z'; lcl++)
 	{
 		putchar(lcl);
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
