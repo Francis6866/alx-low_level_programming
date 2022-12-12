@@ -11,7 +11,7 @@ int main(void)
 	for (d = 18; d < 28; d++)
 	{
 		putchar(d);
-		for (d != 27)
+		for (; d != 27; )
 		{
 			putchar(',');
 			putchar(' ');
